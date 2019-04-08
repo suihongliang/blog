@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.urls import reverse
 
-
+#设计表格相关的结构
 class Category(models.Model):
     name = models.CharField('分类',max_length=128)
 
